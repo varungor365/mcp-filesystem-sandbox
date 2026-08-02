@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-filesystem-sandbox"
+version = "1.0.0"
+description = "🔒 File system sandbox wrapper for Model Context Protocol (MCP) servers."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Varun Ruhella" }]
+keywords = ["ai", "security", "mcp", "sandbox", "filesystem"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/varungor365/mcp-filesystem-sandbox"
+Repository = "https://github.com/varungor365/mcp-filesystem-sandbox"
