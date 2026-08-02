@@ -1,5 +1,5 @@
 import os
-import io
+
 
 class SecurityException(Exception):
     pass

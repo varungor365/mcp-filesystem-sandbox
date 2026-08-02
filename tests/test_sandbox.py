@@ -1,7 +1,9 @@
-import pytest
-import os
 import tempfile
+
+import pytest
+
 from mcp_sandbox.sandbox import Sandbox, SecurityException
+
 
 def test_sandbox_read_write():
     with tempfile.TemporaryDirectory() as temp_dir:
